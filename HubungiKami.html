@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="HubungiKami.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <nav
+      class="navbar navbar-expand-lg bg-body-tertiary fixed-top flex justify-between items-center shadow-lg"
+      style="padding: 0 3.25rem"
+    >
+      <div class="container-fluid py-1">
+        <a href="index.html">
+          <img src="Assets/logo kayjaya.png" class="w-24" alt="logo_error" />
+        </a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="offcanvas offcanvas-end"
+          tabindex="-1"
+          id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel"
+        >
+          <div class="offcanvas-header">
+            <p>&nbsp;</p>
+            <button
+              class="btn-close"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html"
+                  >Beranda</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="TentangKami.html">Tentang Kami</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-arrow"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Produk
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a
+                      class="dropdown-item focus:bg-gray-100"
+                      href="product/PanelAkses.html"
+                      >Panel Akses</a
+                    >
+                  </li>
+                  <li>
+                    <hr class="dropdown-divider mx-3" />
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item focus:bg-gray-100"
+                      href="product/Aksesoris.html"
+                      >Aksesoris</a
+                    >
+                  </li>
+                  <li>
+                    <hr class="dropdown-divider mx-3" />
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item focus:bg-gray-100"
+                      href="product/PaketBundling.html"
+                      >Paket Bundling</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="HubungiKami.html">Hubungi kami</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- banner -->
+    <div class="banner"></div>
+
+    <div class="px-16 py-8">
+      <div class="grid-hubungikami gap-4 -mt-16">
+        <div
+          class="defaultCard py-4 bg-white border rounded-lg flex-col justify-center"
+        >
+          <div>
+            <img
+              src="Assets/icon/Whatsapp.png"
+              style="
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width: 30%;
+              "
+              alt="img_error"
+            />
+          </div>
+          <p class="py-4 font-bold flex justify-center text-orange-500">
+            Talk to Us
+          </p>
+          <p class="flex justify-center text-xs">Panel Akses</p>
+        </div>
+        <div
+          class="defaultCard py-4 bg-white border rounded-lg flex-col justify-center"
+        >
+          <div>
+            <img
+              src="Assets/icon/Email.png"
+              style="
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width: 30%;
+              "
+              alt="img_error"
+            />
+          </div>
+          <p class="py-4 font-bold flex justify-center text-orange-500">
+            Email
+          </p>
+          <p class="flex justify-center text-xs">
+            <a href="#">@Sales.aksesindo@gmail.com</a>
+          </p>
+        </div>
+        <div
+          class="defaultCard py-4 bg-white border rounded-lg flex-col justify-center"
+        >
+          <div class="flex">
+            <img
+              src="Assets/icon/Tokopedia.png"
+              style="
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width: 30%;
+              "
+              alt="img_error"
+            />
+            <img
+              src="Assets/icon/Shopee.png"
+              style="
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width: 30%;
+              "
+              alt="img_error"
+            />
+            <img
+              src="Assets/icon/Indotrading.png"
+              style="
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width: 30%;
+              "
+              alt="img_error"
+            />
+          </div>
+          <p class="py-4 font-bold flex justify-center text-orange-500">
+            Marketplace
+          </p>
+          <p class="flex justify-center text-xs">Order now</p>
+        </div>
+      </div>
+    </div>
+
+    <footer class="grid-footer" style="background-color: #8f8f8f">
+      <div>
+        <p>PT.KAYLIN LANGGENG BERJAYA</p>
+        <p>GREENLAKE CITY RUKAN CBD BLOK J NO.011</p>
+        <p>TANGERANG 15147</p>
+        <p class="phone">(021) 54316094</p>
+        <a href="#" class="text-white">
+          <p class="email">Sales.aksesindo@gmail.com</p>
+        </a>
+      </div>
+      <hr class="block md:hidden" />
+      <div class="flex-col justify-center items-center">
+        <img
+          src="Assets/logo kayjaya.png"
+          class="pb-2 w-24"
+          style="display: block; margin-left: auto; margin-right: auto"
+          alt="logo-error"
+        />
+        <p class="flex justify-center">
+          Copyright ©PT Kaylin Langgeng Berjaya. All rights Reserved
+        </p>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+      integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

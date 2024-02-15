@@ -1,0 +1,29 @@
+.grid-container-product-detail {
+  display: grid;
+  grid-template-areas: "image detail detail";
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2rem;
+}
+@media (max-width: 767px) {
+  .grid-container-product-detail {
+    grid-template-areas:
+      "image "
+      "detail";
+    grid-template-columns: 1fr;
+  }
+}
+.product-image {
+  grid-area: image;
+}
+.product-detail {
+  grid-area: detail;
+}
+
+@media (max-width: 767px) {
+  .btn-container {
+    flex-direction: column;
+  }
+  .btn-wide {
+    width: 100%;
+  }
+}
