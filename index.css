@@ -116,7 +116,7 @@ nav div div ul li a:hover {
   font-variant: normal;
   text-rendering: auto;
   -webkit-font-smoothing: antialiased;
-  margin-right: 0.5rem;
+  margin-right: 0.85rem;
 }
 .email::before {
   font-family: "Font Awesome 5 Free";
@@ -127,6 +127,6 @@ nav div div ul li a:hover {
   font-variant: normal;
   text-rendering: auto;
   -webkit-font-smoothing: antialiased;
-  margin-right: 0.5rem;
+  margin-right: 0.75rem;
 }
 /* footer end */
