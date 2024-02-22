@@ -1,0 +1,38 @@
+.banner-tentangkami {
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: left / cover no-repeat;
+  background-image: url("Assets/tentang-kami-banner.png");
+}
+
+.grid-supported-product {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+@media (max-width: 1350px) {
+  .grid-supported-product {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+@media (max-width: 767px) {
+  .grid-supported-product {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (max-width: 575px) {
+  .grid-supported-product {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (max-width: 400px) {
+  .grid-supported-product {
+    grid-template-columns: 1fr;
+  }
+}
